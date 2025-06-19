@@ -28,3 +28,5 @@ This **Weather Forecast App** is a simple Python GUI application that provides *
 ```bash
 git clone https://github.com/Shubham0x1/tkinter-weather-app.git
 cd tkinter-weather-app
+## Install the Required Packages
+pip install -r requirements.txt
