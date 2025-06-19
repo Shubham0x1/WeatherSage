@@ -28,5 +28,26 @@ This **Weather Forecast App** is a simple Python GUI application that provides *
 ```bash
 git clone https://github.com/Shubham0x1/tkinter-weather-app.git
 cd tkinter-weather-app
-## Install the Required Packages
+
+2️⃣ Install the Required Packages
+
 pip install -r requirements.txt
+
+If requirements.txt is not available:
+pip install requests python-dotenv
+
+3️⃣ Get Your OpenWeatherMap API Key
+
+Go to: https://home.openweathermap.org/api_keys
+
+Sign in or create a free account
+
+Click “Create Key” and copy your API key
+
+4️⃣ Setup Environment Variables
+Create a .env file in your project root folder and add:
+
+API_KEY=your_actual_openweathermap_key_here
+
+5️⃣ Run the Application
+python weather_app.py
