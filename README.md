@@ -94,7 +94,7 @@ weather-forecast-app/
 
 ##  Author
 
-**Shalu Yadav**  
+**Shubham Gusain**  
 Made with heart using Python & Tkinter
 
 ---
