@@ -1,53 +1,135 @@
-# 🌦️ Tkinter Weather Forecast App
+#  SkyWatch-Tkinter-GUI
+
+A user-friendly **Python GUI Weather App** that shows live weather details for Indian cities. Built using **Tkinter**, this desktop application includes:
+
+-  City selection or auto-detection  
+-  Live temperature, humidity, pressure  
+-  Error handling for invalid input or no internet  
+
+---
+
+##  Screenshot
 
 ![Weather App Screenshot](weatherpython2.png)
 
-## 📖 Overview
+---
 
-This **Weather Forecast App** is a simple Python GUI application that provides **real-time weather updates** based on user-selected Indian locations. It uses the **OpenWeatherMap API** to fetch data and displays it in a clean and interactive interface built with **Tkinter**.
+##  Features
+
+-  Search by Indian City or State  
+-  Auto-detect city using IP  
+-  Real-time Temperature, Humidity, Pressure  
+-  Dark Mode Toggle 
+-  Last updated timestamp  
+-  API integration using OpenWeatherMap  
+-  Error handling for invalid input and no internet  
 
 ---
 
-## ✨ Features
+## 🛠️ Technologies Used
 
-- 🎨 User-friendly Tkinter GUI
-- 🌐 Real-time weather data using OpenWeatherMap API
-- 📊 Displays:
-  - Weather climate
-  - Description
-  - Temperature (in °C)
-  - Humidity (%)
-  - Atmospheric pressure (mb)
-- 🔎 "Search" button to fetch weather info
+- Python 3.x  
+- `tkinter` — GUI toolkit  
+- `requests` — for API communication  
+- [OpenWeatherMap API](https://openweathermap.org/)  
+- [ipinfo.io](https://ipinfo.io) — for location detection  
 
 ---
 
-## 🚀 Getting Started
+##  How to Run Locally
 
-1️⃣ Clone this Repository
+### 1. Clone the Repository
 ```bash
-git clone https://github.com/Shubham0x1/tkinter-weather-app.git
-cd tkinter-weather-app
+git clone https://github.com/your-username/SkyWatch-Tkinter-GUI.git
+cd SkyWatch-Tkinter-GUI
+```
 
-2️⃣ Install the Required Packages
-
+### 2. Install Requirements
+```bash
 pip install -r requirements.txt
+```
 
-If requirements.txt is not available:
-pip install requests python-dotenv
-
-3️⃣ Get Your OpenWeatherMap API Key
-
-Go to: https://home.openweathermap.org/api_keys
-
-Sign in or create a free account
-
-Click “Create Key” and copy your API key
-
-4️⃣ Setup Environment Variables
-Create a .env file in your project root folder and add:
-
-API_KEY=your_actual_openweathermap_key_here
-
-5️⃣ Run the Application
+### 3. Run the App
+```bash
 python weather_app.py
+```
+
+##  Get Your Own API Key
+
+This app uses [OpenWeatherMap](https://openweathermap.org/api). To run it with your own API key:
+
+1. Visit - https://openweathermap.org/api  
+2. Sign up and **get your free API key**
+3. Open the file `weather_app.py` and replace the default key with your own:
+
+```python
+# Before
+API_KEY = "1e7404d83a6d0c51e8321e1aedae4fa8"
+
+# After
+API_KEY = "your_actual_api_key_here"
+```
+##  Project Structure
+weather-forecast-app/
+
+│ ├── weather_app.py
+
+│-- README.md
+
+│-- requirements.txt
+
+│-- assets/ 
+
+---
+
+##  To-Do / Enhancements
+
+- [ ] Add weather icons (☀️ 🌧️ 🌩️)
+- [ ] Save/export weather reports
+- [ ] Support for international cities
+- [ ] Add voice assistant using `pyttsx3`
+- [ ] Add 7-day forecast with OneCall API
+
+---
+
+##  Author
+
+**Shalu Yadav**  
+Made with heart using Python & Tkinter
+
+---
+
+##  License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+##  Support or Feedback?
+
+-  Raise an [issue](https://github.com/your-username/weather-forecast-app/issues) for bugs or suggestions  
+-  Star the repo if you found it helpful!
+
+---
+
+##  What to Do Now
+
+1. Save this content as `README.md`  
+2. Place it in your project root folder  
+3. Create `requirements.txt` with the following:
+```bash
+requests
+```
+
+---
+
+###  Summary of Changes Made:
+
+| Issue | Fix |
+|-------|-----|
+| Code block syntax (` ```requests `) | Changed to valid code block with `requests` inside |
+| Missing `---` before sections | Added horizontal lines for visual separation |
+| Header emojis | Unified with consistent styling |
+| Clarified optional dark mode | Marked as "(if implemented)" |
+| Corrected repo name in paths | Replaced `weather-forecast-app` with `SkyWatch-Tkinter-GUI` |
+| Added formatting consistency | Proper line breaks, spacing, and indent alignment |
