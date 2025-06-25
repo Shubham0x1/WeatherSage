@@ -1,4 +1,4 @@
-#  SkyWatch-Tkinter-GUI
+#  WeatherSage-Tkinter-GUI
 
 A user-friendly **Python GUI Weather App** that shows live weather details for Indian cities. Built using **Tkinter**, this desktop application includes:
 
@@ -40,8 +40,8 @@ A user-friendly **Python GUI Weather App** that shows live weather details for I
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/SkyWatch-Tkinter-GUI.git
-cd SkyWatch-Tkinter-GUI
+git clone https://github.com/your-username/WeatherSage-Tkinter-GUI.git
+cd WeatherSage-Tkinter-GUI
 ```
 
 ### 2. Install Requirements
@@ -107,7 +107,7 @@ This project is open-source and available under the **MIT License**.
 
 ##  Support or Feedback?
 
--  Raise an [issue](https://github.com/your-username/weather-forecast-app/issues) for bugs or suggestions  
+-  Raise an [issue](https://github.com/your-username/WeatherSage-Tkinter-GUI/issues) for bugs or suggestions  
 -  Star the repo if you found it helpful!
 
 ---
@@ -131,5 +131,5 @@ requests
 | Missing `---` before sections | Added horizontal lines for visual separation |
 | Header emojis | Unified with consistent styling |
 | Clarified optional dark mode | Marked as "(if implemented)" |
-| Corrected repo name in paths | Replaced `weather-forecast-app` with `SkyWatch-Tkinter-GUI` |
+| Corrected repo name in paths | Replaced `weather-forecast-app` with `WeatherSage-Tkinter-GUI` |
 | Added formatting consistency | Proper line breaks, spacing, and indent alignment |
