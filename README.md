@@ -112,13 +112,3 @@ This project is open-source and available under the **MIT License**.
 
 ---
 
-##  What to Do Now
-
-1. Save this content as `README.md`  
-2. Place it in your project root folder  
-3. Create `requirements.txt` with the following:
-```bash
-requests
-```
-
----
