@@ -122,14 +122,3 @@ requests
 ```
 
 ---
-
-###  Summary of Changes Made:
-
-| Issue | Fix |
-|-------|-----|
-| Code block syntax (` ```requests `) | Changed to valid code block with `requests` inside |
-| Missing `---` before sections | Added horizontal lines for visual separation |
-| Header emojis | Unified with consistent styling |
-| Clarified optional dark mode | Marked as "(if implemented)" |
-| Corrected repo name in paths | Replaced `weather-forecast-app` with `WeatherSage-Tkinter-GUI` |
-| Added formatting consistency | Proper line breaks, spacing, and indent alignment |
